@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="191dp"
+        android:layout_height="223dp"
+        app:srcCompat="@drawable/read"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Username"
+        android:textColor="#0E0D0D"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="318dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="50dp" a/>
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textColor="#0E0D0D"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/textViewregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donn't have an account, register here"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
